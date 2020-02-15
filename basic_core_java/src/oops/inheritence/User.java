@@ -9,9 +9,19 @@ public class User {
 		Telephone phone  = new Telephone ();
 		phone.calling();
 		
-		mobile mobile
+		Mobile mobile=new Mobile();
+		mobile.calling();
+		
+		
+		Smartphone sm=new Smartphone();
+		sm.calling();
+		sm.Texting();
+		sm.internet();
+		
 		
 
+		
 	}
 
 }
+

@@ -5,13 +5,13 @@ public class Functions1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		sum();
+		
 		sum();		
 		
 		int add =sum(30,40);
 		int add2 =sum(50,60);
-		System.out.println(add+add2);
-
-		
+		System.out.println(add+add2);		
 		
 	}
 	
