@@ -27,9 +27,15 @@ public class Bank_user {
 		bank.debitcard();
 		bank.savingAccount();
 		bank.currentAccount();
+		bank.demonetization();
 		
 				
 	}
+	private static void demonetization() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	public static void callphone(Telephone phone)
 	
 	{

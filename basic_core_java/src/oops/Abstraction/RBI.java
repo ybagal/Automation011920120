@@ -1,6 +1,6 @@
 package oops.Abstraction;
 
-public interface RBI 
+public interface RBI extends modi1 ,SC
 {
    public void savingAccount();
    public void currentAccount();
