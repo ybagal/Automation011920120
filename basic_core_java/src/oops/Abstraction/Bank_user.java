@@ -1,5 +1,9 @@
 package oops.Abstraction;
 
+import oops.inheritence.Mobile;
+import oops.inheritence.Smartphone;
+import oops.inheritence.Telephone;
+
 public class Bank_user {
 
 	public static void main(String[] args) 
@@ -10,6 +14,10 @@ public class Bank_user {
 		callBank(new HDFC());	
 		callBank(new SBI());	
 		callBank(new HSBC());	
+		
+		callphone(new Telephone());
+		callphone(new Smartphone());
+		callphone(new Mobile());
 	}
 	
 	public static void callBank(RBI bank)	
@@ -21,6 +29,11 @@ public class Bank_user {
 		bank.currentAccount();
 		
 				
+	}
+	public static void callphone(Telephone phone)
+	
+	{
+		phone.calling();
 	}
 	
 	public static void sum(int a,int b)
