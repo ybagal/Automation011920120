@@ -20,10 +20,10 @@ public class SetcellData {
 		
 	XSSFSheet Sheet =wb.getSheet("Sheet1");
 		
-		XSSFRow row =Sheet.getRow(18);
+		XSSFRow row =Sheet.getRow(10);
 		
 		if(row==null)
-			row=Sheet.createRow(18);
+			row=Sheet.createRow(10);
 		
 		
 		

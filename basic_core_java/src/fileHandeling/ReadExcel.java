@@ -27,10 +27,10 @@ public class ReadExcel {
 		
 		String str=cell.getStringCellValue();*/
 	
-	String Str=Sheet.getRow(0).getCell(0).getStringCellValue();
+	String str=Sheet.getRow(0).getCell(0).getStringCellValue();
 		
 		
-		System.out.println(Str);
+		System.out.println(str);
 		
 		int rows =Sheet.getPhysicalNumberOfRows();
 		int cols =Sheet.getRow(0).getLastCellNum();

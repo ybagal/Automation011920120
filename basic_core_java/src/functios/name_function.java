@@ -7,7 +7,7 @@ public class name_function {
 		
 		
 		String a=getname("Apurava");
-		String a=getname("Apurava");	
+		//String a=getname("Apurava");	
 
 		
        System.out.println(a);

@@ -2,17 +2,19 @@ package functios;
 
 public class age {
 
-	public static string  eligliblity (String[] args) {
+	public static String  eligliblity (String[] args) {
 
 
 
 
 
-	    String a=get age(18);
-		String b=get age(30);		
+	    int a = 10;
+	    int b =20 ;
+	    
+		//String b=get.age(30);		
     
 
-}
+
 	
 	if (a>b)
 	{
@@ -30,14 +32,5 @@ public class age {
 			
 }
 
-
-
-
-
-
-
-
-
-
-
+	}
 }
