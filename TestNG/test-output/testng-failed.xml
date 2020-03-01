@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Tricentise Regression Suite]">
-  <test thread-count="5" name="Automobile Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGAnnotation.Automobile">
+      <class name="TestNGAnnotation.MouseHover">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="login"/>
-          <include name="verifyHomepage"/>
-          <include name="Logout"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="AfterSuite"/>
-          <include name="afterTest"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- TestNGAnnotation.Automobile -->
+      </class> <!-- TestNGAnnotation.MouseHover -->
     </classes>
-  </test> <!-- Automobile Test(failed) -->
-</suite> <!-- Failed suite [Tricentise Regression Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
